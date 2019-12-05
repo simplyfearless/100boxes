@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #eaeaea;
+}
+
+#canvas {
+    border-right: 1px solid #eaeaea;
+    border-width: 0.05em;
+}
+
+.stats {
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+p:last-child {
+    font-size: 16px;
+}
+.canvas-container {
+    left: 50%;
+    transform: translateX(-50%);
+}
